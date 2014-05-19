@@ -1,0 +1,28 @@
+﻿{
+  "Statement": [
+    {
+      "Sid": "Stmt1377797407113",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::dev*"
+    },
+    {
+      "Sid": "Stmt1377797472762",
+      "Action": "iam:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1377797511645",
+      "Action": "sns:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1377797524737",
+      "Action": "sqs:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}

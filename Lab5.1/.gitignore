@@ -1,0 +1,2 @@
+# Don't put in config backup files.
+*.config.rhy

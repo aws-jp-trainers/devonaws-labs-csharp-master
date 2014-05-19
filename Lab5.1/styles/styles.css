@@ -1,0 +1,33 @@
+﻿/*************************************
+GENERAL
+*************************************/
+body {
+	/*font: 12px/1.4em "Lucida Grande", Verdana, sans-serif;*/
+	text-rendering: optimizeLegibility;
+    font-family: "HelveticaNeueLightExtended", "HelveticaNeue-Light-Extended", "Helvetica Neue Light Extended", "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+    /*font-weight:300;*/ 
+    font-stretch:expanded;
+    font-size: 0.9em;
+}
+
+h2 {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	font-weight: bold;
+	margin: 20px 0 0 0;
+	padding: 0;
+	border-bottom: 3px solid #eee;
+}
+
+.topalign {
+    vertical-align: top;
+}
+
+.imageblock {
+    clear:none; 
+    display:inline-block; 
+    width: 325px;
+}
+
+
+
